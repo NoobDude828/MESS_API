@@ -13,3 +13,5 @@ module.exports = {
     removeReport,
     updateReport,
 };
+
+//add some queries

@@ -8,6 +8,8 @@ const getReport = (req, res) =>{
     })
 };  
 
+//replicate for feedbacks
+
 const getReportById = (req, res) => {
     const id = parseInt(req.params.id);
     pool.query(queries.getReportById, [id], (error, results) =>{
